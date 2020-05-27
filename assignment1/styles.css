@@ -13,7 +13,7 @@ header u {
     font-size: 250%;
 }
 
-.row{
+.row,{
     width:100%;
 }
 
@@ -33,7 +33,7 @@ header u {
         width:25%;
     }
     .col_lg_4{
-        width:33.32;
+        width:33.32%;
     }
     .col_lg_5{
         width:41.65%;
@@ -85,7 +85,7 @@ header u {
     }
 
     .col_md_4 {
-        width: 33.32;
+        width: 33.32%;
     }
 
     .col_md_5 {
@@ -161,7 +161,7 @@ header u {
     }
 
     .col_sm_4 {
-        width: 33.32;
+        width: 33.32%;
     }
 
     .col_sm_5 {
@@ -214,6 +214,7 @@ header u {
     float:left;
     padding-top:90px;
     margin:20px;
+    line-height:120%;
 }
 
 #item1 {
