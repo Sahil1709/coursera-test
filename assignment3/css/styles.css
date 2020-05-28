@@ -1,0 +1,228 @@
+*{
+    box-sizing:border-box;
+}
+
+header h1{
+    font-family:Chelsea Market;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+
+.row,{
+    width:100%;
+}
+
+@media(min-width:992px) {
+    .col_lg_1, .col_lg_2, .col_lg_3, .col_lg_4, .col_lg_5, .col_lg_6, .col_lg_7, .col_lg_8, .col_lg_9, .col_lg_10, .col_lg_11, 
+    .col_lg_12 {
+        float:left;
+        
+    }
+    .col_lg_1{
+        width:8.33%;
+    }
+    .col_lg_2{
+        width:16.66%;
+    }
+    .col_lg_3{
+        width:25%;
+    }
+    .col_lg_4{
+        width:33.32%;
+    }
+    .col_lg_5{
+        width:41.65%;
+    }
+    .col_lg_6{
+        width:50%;
+    }
+    .col_lg_7{
+        width:58.3%;
+    }
+    .col_lg_8{
+        width:66.64%;
+    }
+    .col_lg_9{
+        width:75%;
+    }
+    .col_lg_10{
+        width:83.3%;
+    }
+    .col_lg_11{
+        width:91.63%;
+    }
+    .col_lg_12{
+        width:100%;
+    }
+    header u {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .col_md_1, .col_md_2, .col_md_3, .col_md_4, .col_md_5, .col_md_6, .col_md_7, .col_md_8, .col_md_9, .col_md_10, .col_md_11,
+    .col_md_12 {
+        float: left;
+        
+    }
+
+    .col_md_1 {
+        width: 8.33%;
+    }
+
+    .col_md_2 {
+        width: 16.66%;
+    }
+
+    .col_md_3 {
+        width: 25%;
+    }
+
+    .col_md_4 {
+        width: 33.32%;
+    }
+
+    .col_md_5 {
+        width: 41.65%;
+    }
+
+    .col_md_6 {
+        width: 50%;
+    }
+
+    .col_md_7 {
+        width: 58.3%;
+    }
+
+    .col_md_8 {
+        width: 66.64%;
+    }
+
+    .col_md_9 {
+        width: 75%;
+    }
+
+    .col_md_10 {
+        width: 83.3%;
+    }
+
+    .col_md_11 {
+        width: 91.63%;
+    }
+
+    .col_md_12 {
+        width: 100%;
+    }
+    img {
+        width: 120px;
+        height: 120px;
+    }
+    header u {
+        position: relative;
+        bottom: 50px;
+        font-size:50px
+    }
+}
+
+@media(max-width:767px) {
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    header u {
+        position:relative;
+        bottom:25px;
+        font-size:100%;
+        padding-top:20px;
+    }
+
+    .col_sm_1, .col_sm_2, .col_sm_3, .col_sm_4, .col_sm_5, .col_sm_6, .col_sm_7, .col_sm_8, .col_sm_9, .col_sm_10, .col_sm_11,
+    .col_sm_12 {
+        float: left;
+        
+    }
+
+    .col_sm_1 {
+        width: 8.33%;
+    }
+
+    .col_sm_2 {
+        width: 16.66%;
+    }
+
+    .col_sm_3 {
+        width: 25%;
+    }
+
+    .col_sm_4 {
+        width: 33.32%;
+    }
+
+    .col_sm_5 {
+        width: 41.65%;
+    }
+
+    .col_sm_6 {
+        width: 50%;
+    }
+
+    .col_sm_7 {
+        width: 58.3%;
+    }
+
+    .col_sm_8 {
+        width: 66.64%;
+    }
+
+    .col_sm_9 {
+        width: 75%;
+    }
+
+    .col_sm_10 {
+        width: 83.3%;
+    }
+
+    .col_sm_11 {
+        width: 91.63%;
+    }
+
+    .col_sm_12 {
+        width: 100%;
+    }
+}
+
+.text {
+    font-size: 26px;
+    font-family: 'Lucida Console';
+    color: black;
+    float: left;
+    padding-top: 13px;
+    margin: 20px;
+    line-height: 120%;
+    background-color: #8fbbd6;
+}
+
+.navbar {
+    background-color: #8fbbd6;
+    border: 3px solid #1b394b;
+    border-left:0px;
+    border-right:0px;
+    
+}
+.navbar-brand {
+    font-family: Chelsea Market;
+    color: #1b394b;
+    font-weight: bold;
+
+}
+section div div h2{
+    text-align:center;
+    font-weight:700;
+    font-family:Chelsea Market;
+    margin-bottom:30px
+}
+
+
+
