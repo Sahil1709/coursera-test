@@ -4,7 +4,7 @@
 
 header h1{
     font-family:Chelsea Market;
-    margin-top:10px;
+    margin-top:100px;
     margin-bottom:20px;
 }
 
@@ -199,7 +199,17 @@ header h1{
     color: black;
     float: left;
     padding-top: 13px;
-    margin: 20px;
+    margin: 30px;
+    line-height: 120%;
+    background-color: #8fbbd6;
+}
+
+#text {
+    font-size: 26px;
+    font-family: 'Lucida Console';
+    color: black;
+    float: left;
+    margin: 30px;
     line-height: 120%;
     background-color: #8fbbd6;
 }
@@ -211,17 +221,75 @@ header h1{
     border-right:0px;
     
 }
-.navbar-brand {
-    font-family: Chelsea Market;
-    color: #1b394b;
-    font-weight: bold;
 
-}
 section div div h2{
     text-align:center;
     font-weight:700;
     font-family:Chelsea Market;
-    margin-bottom:30px
+}
+.container{
+    width:100%;
+}
+.navbar-header > .navbar-brand {
+    font-family: Chelsea Market; 
+    color: #173f4f;
+    font-weight:bold;
+    font-size:34px;
+}
+
+#nav-list > li {
+    font-family: Chelsea Market; 
+    color: #173f4f;
+    text-align:center;
+    font-size:30px;
+}
+hr{
+    color:black;
+    margin:3px;
+    border:1.5px solid black;
+    
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000000;
+    
+}
+@media (max-width:768px) {/*extra small devices*/
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-top:3px solid black;
+    }
+    .text{
+        margin-left:50px;
+        margin-right:50px;
+    }
+    #text {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size:20px;
+    }
+}
+a {
+    color: White;
+    font-family: Chelsea Market;
+    font-size: 26px;
+    text-align: center;
+    background-color: #173f4f;
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+}
+a:hover {
+    text-decoration:none;
+    color:black;
+    background-color:white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #1b394b;
+    height:4px;
+}
+
+.navbar-default .navbar-toggle {
+    border: 3px solid #1b394b;
+    border-color: #1b394b;
 }
 
 
